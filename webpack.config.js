@@ -1,9 +1,9 @@
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
-  entry: './src/app.js',
+  entry: "./src/app.js",
   output: {
-    filename: './docs/bundle.js'
+    filename: "./docs/bundle.js"
   },
   module: {
     rules: [
@@ -16,11 +16,13 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
-        use: [
-          'file-loader'
-        ]
+        use: [{
+          loader: "file-loader",
+          options: {
+            outputPath: "./docs/images/"
+          }
+        }]
       }
-
     ]
   },
   plugins: [
