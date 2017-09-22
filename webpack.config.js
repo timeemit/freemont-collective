@@ -16,12 +16,15 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
-        use: [{
-          loader: "file-loader",
-          options: {
-            outputPath: "./docs/images/"
-          }
-        }]
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              outputPath: "./docs/images/"
+            }
+          },
+          "image-webpack-loader"
+        ]
       }
     ]
   },
