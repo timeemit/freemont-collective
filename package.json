@@ -1,0 +1,23 @@
+{
+  "name": "freemont-collective",
+  "version": "1.0.0",
+  "description": "As scratched together from conversation in Ladro Coffee",
+  "main": "docs/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^3.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timeemit/freemont-collective.git"
+  },
+  "author": "Liam Norris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timeemit/freemont-collective/issues"
+  },
+  "homepage": "https://github.com/timeemit/freemont-collective#readme"
+}
