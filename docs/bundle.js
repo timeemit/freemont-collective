@@ -71,20 +71,32 @@
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__styles_pure_min_css__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__styles_pure_min_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__styles_pure_min_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_app_scss__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_app_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__styles_app_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__images_figure0_png__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__images_figure0_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__images_figure0_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__images_figure1_png__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__images_figure1_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__images_figure1_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__images_figure2_png__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__images_figure2_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__images_figure2_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__images_figure3_png__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__images_figure3_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__images_figure3_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__images_figure4_png__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__images_figure4_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__images_figure4_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__images_figure5_png__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__images_figure5_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__images_figure5_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_pure_responsive_min_css__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_pure_responsive_min_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__styles_pure_responsive_min_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_app_scss__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_app_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__styles_app_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__images_figure0_png__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__images_figure0_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__images_figure0_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__images_figure1_png__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__images_figure1_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__images_figure1_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__images_figure2_png__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__images_figure2_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__images_figure2_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__images_figure3_png__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__images_figure3_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__images_figure3_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__images_figure4_png__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__images_figure4_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__images_figure4_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__images_figure5_png__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__images_figure5_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__images_figure5_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__images_tshirt_red_png__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__images_tshirt_red_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__images_tshirt_red_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__images_tshirt_blue_png__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__images_tshirt_blue_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__images_tshirt_blue_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__images_tshirt_green_png__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__images_tshirt_green_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__images_tshirt_green_png__);
+
+
+
+
 
 
 
@@ -143,6 +155,36 @@ module.exports = __webpack_require__.p + "./docs/images/figure4.png";
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "./docs/images/figure5.png";
+
+/***/ }),
+/* 9 */,
+/* 10 */,
+/* 11 */,
+/* 12 */,
+/* 13 */,
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "./docs/images/tshirt-red.png";
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "./docs/images/tshirt-blue.png";
+
+/***/ }),
+/* 16 */,
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "./docs/images/tshirt-green.png";
+
+/***/ }),
+/* 18 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);
