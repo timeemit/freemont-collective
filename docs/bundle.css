@@ -991,6 +991,24 @@ body {
 .green {
   background-color: green; }
 
+.delay-1 {
+  animation-delay: 1s; }
+
+.delay-2 {
+  animation-delay: 2s; }
+
+.delay-3 {
+  animation-delay: 3s; }
+
+.delay-4 {
+  animation-delay: 4s; }
+
+.delay-5 {
+  animation-delay: 5s; }
+
+.delay-6 {
+  animation-delay: 6s; }
+
 @keyframes creepfromleft {
   from {
     opacity: 0;
@@ -1021,7 +1039,7 @@ body {
   animation-delay: 1s; }
 
 .figure-0, .figure-5 {
-  animation-delay: 1.5s; }
+  animation-delay: 2s; }
 
 .figure-0, .figure-1, .figure-2 {
   animation-name: creepfromleft; }
@@ -1034,6 +1052,18 @@ body {
     position: relative;
     top: -100px; } }
 
+@keyframes appear {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.title {
+  opacity: 0;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-fill-mode: forwards; }
+
 .border-top-thin {
   border-top-width: 2px;
   border-top-style: solid; }
@@ -1044,7 +1074,7 @@ body {
 .block {
   height: 120px; }
 
-@keyframes appear-explosive {
+@keyframes appear-disappear {
   0% {
     opacity: 0; }
   50% {
@@ -1055,27 +1085,12 @@ body {
 .block {
   position: relative;
   opacity: 0;
-  animation-name: appear-explosive;
+  animation-name: appear-disappear;
   animation-duration: 3s;
   animation-fill-mode: both;
   animation-iteration-count: 4;
   animation-direction: alternate;
   animation-timing-function: ease-in-out; }
-
-.delay-2 {
-  animation-delay: 2s; }
-
-.delay-3 {
-  animation-delay: 3s; }
-
-.delay-4 {
-  animation-delay: 4s; }
-
-.delay-5 {
-  animation-delay: 5s; }
-
-.delay-6 {
-  animation-delay: 6s; }
 
 .panel {
   padding: 20px 30px;
