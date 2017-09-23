@@ -11,6 +11,7 @@ body {
 .green { background-color: green; }
 
 // Figures and their animations
+// These complete at 4.5s
 
 @keyframes creepfromleft {
   from {opacity: 0; left: -70px; top: -50px;}
@@ -66,3 +67,28 @@ body {
 .block {
   height: 120px;
 }
+
+// Color animations
+
+@keyframes appear-explosive {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.block {
+  position: relative;
+  opacity: 0;
+  animation-name: appear-explosive;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-iteration-count: 4;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+.delay-2 { animation-delay: 2s; }
+.delay-3 { animation-delay: 3s; }
+.delay-4 { animation-delay: 4s; }
+.delay-5 { animation-delay: 5s; }
+.delay-6 { animation-delay: 6s; }
