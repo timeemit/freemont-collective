@@ -1088,7 +1088,7 @@ body {
   animation-name: appear-disappear;
   animation-duration: 3s;
   animation-fill-mode: both;
-  animation-iteration-count: 4;
+  animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out; }
 
