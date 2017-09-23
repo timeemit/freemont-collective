@@ -21,12 +21,12 @@ body {
 // These complete at 5s
 
 @keyframes creepfromleft {
-  from {opacity: 0; left: -70px; top: -50px;}
+  from {opacity: 0; left: -70px; top: 50px;}
   to {opacity: 1; left: 0px; top: 0px;}
 }
 
 @keyframes creepfromright {
-  from {opacity: 0; left: 70px; top: -50px;}
+  from {opacity: 0; left: 70px; top: 50px;}
   to {opacity: 1; left: 0px; top: 0px;}
 }
 
@@ -46,11 +46,11 @@ body {
 }
 
 .figure-0, .figure-1, .figure-2 {
-  animation-name: creepfromleft;
+  animation-name: creepfromright;
 }
 
 .figure-3, .figure-4, .figure-5 {
-  animation-name: creepfromright;
+  animation-name: creepfromleft;
 }
 
 @media only screen and (min-width: 1100px) {
