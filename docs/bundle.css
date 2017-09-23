@@ -714,6 +714,18 @@ body {
 .centered-text {
   text-align: center; }
 
+.blue {
+  background-color: blue; }
+
+.red {
+  background-color: red; }
+
+.yellow {
+  background-color: yellow; }
+
+.green {
+  background-color: green; }
+
 @keyframes creepfromleft {
   from {
     opacity: 0;
@@ -757,9 +769,12 @@ body {
     position: relative;
     top: -100px; } }
 
-.border-bottom-thin {
-  border-bottom-width: 2px; }
+.border-top-thin {
+  border-top-width: 2px;
+  border-top-style: solid; }
 
 .border-black {
-  border-color: black;
-  border-bottom-style: solid; }
+  border-color: black; }
+
+.block {
+  height: 120px; }
