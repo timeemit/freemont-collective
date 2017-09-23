@@ -9,6 +9,7 @@ body {
 .red { background-color: red; }
 .yellow { background-color: yellow; }
 .green { background-color: green; }
+.black { background-color: black; }
 
 .delay-1 { animation-delay: 1s; }
 .delay-2 { animation-delay: 2s; }
@@ -108,11 +109,23 @@ body {
   animation-timing-function: ease-in-out;
 }
 
-// Merchandise
+// Panels
 
 .panel {
   padding: 20px 30px;
   margin: 25px 35px;
   border-bottom: thin solid black;
   border-top: thin solid black;
+}
+
+
+// Footer
+
+.footer {
+  padding: 40px 0;
+  &:hover {
+    color: black;
+    background-color: DimGray;
+    cursor: pointer;
+  }
 }
