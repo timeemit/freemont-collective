@@ -10,9 +10,19 @@ module.exports = {
     rules: [
       {
         test: /\.s?css$/,
-        use: ExtractTextPlugin.extract({
+        loader: ExtractTextPlugin.extract({
           fallback: "style-loader",
-          use: ["css-loader", "sass-loader"]
+          use: [
+            {
+              loader: "css-loader",
+              query: {
+                minimize: true
+              }
+            },
+            {
+              loader: "sass-loader"
+            }
+          ]
         })
       },
       {
