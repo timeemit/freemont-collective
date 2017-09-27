@@ -78,6 +78,11 @@ body {
 
 // Border
 
+.border-bottom-thin {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+
 .border-top-thin {
   border-top-width: 2px;
   border-top-style: solid;
@@ -89,6 +94,9 @@ body {
 
 .block {
   height: 120px;
+  &.block-short {
+    height: 40px;
+  }
 }
 
 // Color animations
