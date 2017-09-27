@@ -10,6 +10,7 @@ body {
 .yellow { background-color: yellow; }
 .green { background-color: green; }
 .black { background-color: black; }
+.pointer { cursor: pointer; }
 
 .delay-1 { animation-delay: 1s; }
 .delay-2 { animation-delay: 2s; }
@@ -117,7 +118,6 @@ body {
   border-bottom: thin solid black;
   border-top: thin solid black;
 }
-
 
 // Footer
 

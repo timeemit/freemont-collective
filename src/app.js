@@ -17,3 +17,5 @@ import "./images/figure5.png";
 import "./images/tshirt-red.png";
 import "./images/tshirt-blue.png";
 import "./images/tshirt-green.png";
+import "./images/video-mackelmore.png";
+import "./images/video-hipster-coffee.png";
